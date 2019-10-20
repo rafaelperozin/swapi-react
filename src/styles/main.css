@@ -1,0 +1,40 @@
+.swapi__title {
+  text-align: center;
+  margin: 2rem auto 1rem;
+}
+
+.chars {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.chars__char {
+  padding: 2rem;
+  margin: .5rem;
+  border: 1px solid #ddd;
+  min-width: 250px;
+  text-align: left;
+}
+
+.chars__char:hover {
+  border-color: darkgrey;
+  background-color: #eee;
+}
+
+.chars__char-name {
+  margin-top: 0;
+}
+
+.chars__char-info {
+  text-transform: capitalize;
+}
+
+.chars__char-info .global__bold {
+  font-weight: 500;
+}
+
+.chars__char-info:last-child {
+  margin-bottom: 0;
+}

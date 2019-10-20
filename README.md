@@ -1,3 +1,31 @@
+This project was created following these steps:
+
+1. **Plan:** I searched on the web for some similar application to save time with it.
+2. **Set up:** I installed React and made the set up of files structure.
+3. **Code:** Development
+4. **Styles:** To looks nice
+
+## Reasons
+- I choose the React Framework because is more popular and in my interview, you asked about React, then I presume you prefer to work with this framework.
+- I'm using yarn instead of npm because I think faster to install libraries and returns less error in general.
+- I used Axios to make the ajax requests
+- I used a simple CSS instead of SASS because is a very simple application with just a few styles then I believe I do not need to complicate considering is a very simple application.
+*PS.: I normally use SASS on my project.*
+- I made a very simple and clean template (no advanced styles) because I'm focused on meeting the deadline of 4 hours.
+- I didn't have time enough to stylize better the app because I never build, run in server-side and publish a React App. I only coded in the development mode to practise.
+- I can easily reduce this time with commercial experience in javascript frameworks and with a standard set up project
+
+## Code Explanation
+
+1. Check local storage to reduce the number of API calls. If no data then get from API using Axios.
+2. Pass characters data through the characters property on List Component.
+3. On the List, I get the data sent in props and loop through the characters (using the map function because the data is in an array) to show the list of characters.
+4. Create an Express Server to render the app on the server-side.
+
+---------------
+
+## See the React default instructions:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
